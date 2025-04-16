@@ -13,5 +13,5 @@ This project aims to build a machine learning model that can classify mushrooms 
 - **Source**: UCI Machine Learning Repository ([https://archive.ics.uci.edu](https://archive.ics.uci.edu/dataset/848/secondary+mushroom+dataset))
 - **Dataset ID**: 848
 - **Instances**: 61,070
-- **Features**: 20 (All categorical)
+- **Features**: 20 
 - **Target Variable**: `class` (edible or poisonous)
