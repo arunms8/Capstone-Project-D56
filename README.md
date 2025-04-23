@@ -1,34 +1,61 @@
-**Capstone-Project-D56: Wearable Sensor Data and Machine Learning for Activity Detection**
+#  Food Toxicity Detection: Classifying Edible and Poisonous Mushrooms with ML
 
-This repository contains a machine learning project focused on classifying human physical activities using data collected from wearable sensors. The project includes steps for **data preprocessing**, **model training**, **evaluation**, and **interpretation** using **Python** and **scikit-learn**.
-
----
-
- **Objective**
-
-The goal of this project is to develop a machine learning model that can accurately detect different types of physical activities performed by individuals, using wearable sensor data from the **PAMAP2 Physical Activity Monitoring Dataset**.
+This repository contains a machine learning project that focuses on detecting food toxicity by classifying mushrooms as **edible** or **poisonous** using real-world biological data. The project includes data preprocessing, model training, evaluation, and interpretation using **Python** and **scikit-learn**.
 
 ---
 
- **Dataset Overview**
+##  Objective
 
-- **Source**: UCI Machine Learning Repository  
-- **Dataset Name**: PAMAP2 Physical Activity Monitoring  
-- **Link**: [PAMAP2 Dataset on UCI](https://archive.ics.uci.edu/ml/datasets/pamap2+physical+activity+monitoring)  
-- **Instances**: ~3,850,505  
-- **Features**: 52 (including heart rate, accelerometer, gyroscope, and magnetometer readings)  
-- **Target Variable**: Activity ID (e.g., walking, running, cycling, lying, sitting, etc.)  
-- **Subjects**: 9 participants wearing sensors on wrist, ankle, and chest  
+The main objective of this project is to build a supervised machine learning model that can predict whether a mushroom is **safe to eat or potentially toxic**, based on its physical and biological characteristics. This project aligns with the **healthcare domain** by contributing to **food safety and poisoning prevention**.
 
 ---
 
+##  Dataset Overview
 
+- **Dataset Name**: Secondary Mushroom Dataset
+- **Source**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Mushroom)
+- **Format**: Tabular (Real-Valued Features)
+- **Instances**: 61,068
+- **Features**: 20
+- **Target Variable**: Edibility (edible or poisonous)
 
 ---
 
-##  **Tech Stack**
-- Programming Language: **Python**
-- Libraries: `pandas`, `numpy`, `matplotlib`, `scikit-learn`, `seaborn`
-- Tools: **Jupyter Notebook**, GitHub
+##  Project Workflow
+
+1. **Data Loading and Cleaning**
+   - Handle missing values if any
+   - Encode categorical variables
+2. **Exploratory Data Analysis (EDA)**
+   - Class balance check
+   - Feature importance and correlation
+3. **Model Building**
+   - Logistic Regression
+   - Decision Tree
+   - Random Forest
+   - K-Nearest Neighbors
+4. **Model Evaluation**
+   - Accuracy, Precision, Recall, F1-Score
+   - Confusion Matrix
+5. **Interpretation**
+   - Feature influence
+   - Model comparison
 
 ---
+
+##  Tools and Libraries
+
+- **Python**
+- `pandas`, `numpy`, `matplotlib`, `seaborn`
+- `scikit-learn`
+
+---
+
+##  Note
+
+This project is created as part of a capstone assignment and demonstrates the practical application of machine learning in **food safety and healthcare**.
+
+---
+
+##  Repository Structure
+
