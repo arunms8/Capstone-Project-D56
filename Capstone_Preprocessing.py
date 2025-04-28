@@ -13,3 +13,9 @@ def data_explore(df):
     print("\nData Types:\n", df.dtypes)
     
 data_explore(df)
+def data_check(df): 
+    missing_percent = df.isna().sum() / len(df) * 100
+    missing_percent = missing_percent[missing_percent > 0]
+    if not missing_percent.empty:
+        print("\nMissing values detected:\n", missing_percent)
+data_check(df)
